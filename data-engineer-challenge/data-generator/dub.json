@@ -1,0 +1,13 @@
+{
+	"name": "data-generator",
+	"authors": [
+		"Ilya Yaroshenko"
+	],
+	"dependencies": {
+		"asdf": "~>0.0.11",
+		"lincount": "~>0.0.2"
+	},
+	"description": "generates json data for benchmarking purposes",
+	"copyright": "Copyright © 2016, Tamedia AG",
+	"license": "proprietary"
+}
