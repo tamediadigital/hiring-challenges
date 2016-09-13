@@ -19,23 +19,31 @@ Each record corresponds to one measurement with all its 100 features.
 
 The file [target.csv](target.csv) contains a label (0/1) per record (row-numbers are the foreign keys between target and data)
 
-1. Define a set of classifiers that predict the labels (from target.csv). It is important that you explain why you choose a specific classifier and how it has been evaluated.
-
-2. Reduce the number of features by selecting the important features (in respect to your choosen classifier). Again, show how you approached the problem.
-
+1. Define a set of classifiers which predict the labels (from target.csv). 
+Goals:
+	- Explain why you have chosen the classifiers you present
+	- Explain your evaluation strategy, e.g., avoiding overfitting etc.
+2. Reduce the number of features by selecting the important features (with respect to your set of classifiers). 
+Goals:
+	- Explain your method for dimensionality reduction
+	- How can you ensure a minimum of information loss?
 
 ## Task 2
 ### Data
 - [text_clustering.csv](text_clustering.csv)
 
 ### Task
+The file [text_clustering.csv](text_clustering.csv) contains two columns: `ID`, `X1.text`. 
 
+Each record contains an identifier (`ID`) and an article text (`X1.text`). 
+Note: texts still contains HTML tags.
 
-the file [text_clustering.csv](text_clustering.csv) contains two columns: `ID`, `X1.text`. 
+1. Try to cluster the texts. 
+Goals:
+	- Explain the clustering method(s) you have chosen
+	- How can you test the significance of the clusters found by your method(s)?
 
-Each record contains an Identifier (`ID`) and an Article text (`X1.text`). 
-Note: the texts still contains HTML tags.
-
-1. Try to cluster the texts. Which Method have you choosen and how can you test if the clusters are significant ?
-
-2. Visualize the clusters
+2. Visualise the clusters
+Goals:
+	- Make useful representations of the clusters
+	- What are the shared characteristics of the articles within a cluster?
