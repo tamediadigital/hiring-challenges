@@ -6,7 +6,8 @@ to stream data from [kafka](http://kafka.apache.org/) and count unique things wi
 The simplest use case is that we want to calculate unique users per minute, day, week, month, year. For a very first version, business wants us to provide just the unique users per minute.   
 
 - The data consists of (Log)-Frames of JSON data that are streamed into/from apache kafka. 
-- Each frame has a timestamp property which is unixtime 
+- Each frame has a timestamp property which is unixtime, the name of the property is `ts`.
+- Each frame has a user id property calles `uid`. 
 - You can assume that 99.9% of the frames arrive with a maximum latency of 5 seconds. 
 - you want to display the results as soon as possible
 - the results should be forwarded to a new kafka topic (again as json.) choose a suitable structure. 
