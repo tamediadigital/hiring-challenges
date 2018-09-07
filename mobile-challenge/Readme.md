@@ -34,5 +34,7 @@ sending and receiving posts for a given user.
 ## Bonus features
 - Implement the app on both Android and iOS
 - Build and test your code on CircleCI or similar
+- Minimize app size, measure resource usage
+- Obfuscate the app
 
 Have fun!
