@@ -32,9 +32,9 @@ sending and receiving posts for a given user.
 - Usage of external libraries that should simplify the task
 
 ## Bonus features
-- Implement the app on both Android and iOS
+- Obfuscate the app and secure the communication channel
 - Build and test your code on CircleCI or similar
 - Minimize app size, measure resource usage
-- Obfuscate the app
+- Implement the app on both Android and iOS
 
 Have fun!
