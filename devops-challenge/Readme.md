@@ -34,7 +34,7 @@ In case you don't own a spare subdomain name to test you can use freenom.com to 
 Create the necessairy Kubernetes configuration to tear up everything. 
 Like everything else put them in a git repository.
 
-#Suggested Approach:
+## Suggested Approach:
 
 1. research the technologies you plan to use
 
