@@ -1,4 +1,4 @@
-# Tamedia TDA Frontend Challenge.
+# Tamedia TDA Full-Stack Challenge.
 
 ## Intro 
 
