@@ -6,9 +6,9 @@ Our reporters have a burning desire to know whats going on in the wonderful worl
 
 The three social networks they are interested in:
 
-[Twitter](https://5610jmuo4m.execute-api.eu-west-1.amazonaws.com/twitter)
-[Facebook](https://5610jmuo4m.execute-api.eu-west-1.amazonaws.com/facebook)
-[Instagram](https://5610jmuo4m.execute-api.eu-west-1.amazonaws.com/instagram)
+[Twitter](https://7govymftog.execute-api.eu-west-1.amazonaws.com/production/twitter)
+[Facebook](https://7govymftog.execute-api.eu-west-1.amazonaws.com/production/facebook)
+[Instagram](https://7govymftog.execute-api.eu-west-1.amazonaws.com/production/instagram)
 
 Because these social networks are so webscale, they don't always respond predictably. The delay in their response almost appears like someone waited for a random integer of seconds before responding!
 
