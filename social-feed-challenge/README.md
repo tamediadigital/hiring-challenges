@@ -30,6 +30,8 @@ Order isn't important.
 
 This should be a quick little task, but our news sites are kinda important to us, so make sure your implementation is as robust as it is readable.
 
+**Please do not invest more than 5 to 8 hours.** If you can't complete the task within that timeframe, document where you got stuck, so we can use it as a basis for discussion for your next interview.
+
 ## Evaluation criterias
 
 What we look for:
