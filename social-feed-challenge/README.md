@@ -41,6 +41,6 @@ What we look for:
 ### Bonus
 
 - Add [instrumentation](https://prometheus.io)
-- Explain how your project would scale to hundreds of feeds. What would have
+- Explain how your project would scale to hundreds of feeds, spread across the globe. What would have
   to change, what would stay the same?
-- Explain how you would cope with failure if the app crashes mid day / mid year. 
+- Explain how you would cope with failure if the app crashes mid day / mid year.
