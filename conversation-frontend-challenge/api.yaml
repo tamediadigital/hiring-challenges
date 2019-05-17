@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   description: "API Documentation for the Conversation Echo API."
-  version: "1.0.0"
+  version: "1.1.0"
   title: "Conversation Echo API"
 host: "conversation-echo-api.tamedia-origami.ch"
 tags:
