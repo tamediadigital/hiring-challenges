@@ -8,7 +8,7 @@ We want you to build a conversation interface prototype with a frontend framewor
 
 1. Show a list of existing conversations
 2. When the user selects a conversation then list all messages for this conversation
-3. When the user replies in a conversation then her message and the coresponding response should be added to the conversation
+3. When the user replies in a conversation then her message should be added to the conversation
 
 You do not necessarily need to implement all features. Watch your time and try to get as far as possible in about 5-8 hours of development.
 
