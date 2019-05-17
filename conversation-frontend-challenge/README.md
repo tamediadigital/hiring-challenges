@@ -14,7 +14,7 @@ You do not necessarily need to implement all features. Watch your time and try t
 
 ## Step 1
 
-* Become familier with the [Conversation Echo API](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tamediadigital/hiring-challenges/master/conversation-frontend-challenge/api.yaml)
+* Become familiar with the [Conversation Echo API (Swagger UI)](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tamediadigital/hiring-challenges/master/conversation-frontend-challenge/api.yaml)
 * Build a modern web app with the Conversation Echo API
 
 ## Step 2
@@ -22,7 +22,7 @@ You do not necessarily need to implement all features. Watch your time and try t
 * Create a Dockerfile that allows other developers to run the application in a Docker Container
 
 
-# Evaluation criterias
+# Evaluation criteria
 
 What we look for:
 
