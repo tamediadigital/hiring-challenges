@@ -1,0 +1,105 @@
+swagger: "2.0"
+info:
+  description: "API Documentation for the Conversation Echo API."
+  version: "1.0.0"
+  title: "Swagger Petstore"
+host: "conversation-echo-api.tamedia-origami.ch"
+tags:
+- name: "conversations"
+  description: "Everything about conversations"
+- name: "user"
+  description: "Everything about user"
+schemes:
+- "https"
+paths:
+  /conversations:
+    get:
+      tags:
+      - "conversations"
+      summary: "Get all conversations of current user"
+      description: ""
+      operationId: "getAllConversations"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Conversation"
+
+  /conversations/{conversationId}/messages:
+    get:
+      tags:
+      - "conversations"
+      summary: "Get all messages"
+      description: "Returns all messages"
+      operationId: "getAllMessagesByConversationID"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "conversationId"
+        in: "path"
+        description: "Conversation ID"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Message"
+
+  /user:
+    get:
+      tags:
+      - "user"
+      summary: "Get current user"
+      description: "Returns the current user details"
+      operationId: "getCurrentUser"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "#/definitions/User"
+
+definitions:
+  Conversation:
+    type: "object"
+    properties:
+      id:
+        type: "string"
+      participants:
+        type: "array"
+        items:
+          $ref: "#/definitions/User"
+      message_url:
+        type: "string"
+
+  Message:
+    type: "object"
+    properties:
+      id:
+        type: "string"
+      created_at:
+        type: "string"
+      participant:
+        $ref: "#/definitions/User"
+      content:
+        type: "string"
+
+  User:
+    type: "object"
+    properties:
+      id:
+        type: "string"
+      first_name:
+        type: "string"
+      last_name:
+        type: "string"
+      avatar_url:
+        type: "string"
