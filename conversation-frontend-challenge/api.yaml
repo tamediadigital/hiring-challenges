@@ -51,6 +51,36 @@ paths:
             type: "array"
             items:
               $ref: "#/definitions/Message"
+    post:
+      tags:
+      - "conversations"
+      summary: "Echo the sent message"
+      description: "Returns the sent message in behalf of the other participant of this conversation"
+      operationId: "echoMessage"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "conversationId"
+        in: "path"
+        description: "Conversation ID"
+        required: true
+        type: "string"
+      - in: "body"
+        name: "body"
+        description: ""
+        required: true
+        schema:
+          type: "object"
+          properties:
+            content:
+              type: "string"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Message"
 
   /user:
     get:
