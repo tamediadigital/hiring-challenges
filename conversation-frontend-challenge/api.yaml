@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   description: "API Documentation for the Conversation Echo API."
   version: "1.0.0"
-  title: "Swagger Petstore"
+  title: "Conversation Echo API"
 host: "conversation-echo-api.tamedia-origami.ch"
 tags:
 - name: "conversations"
@@ -81,6 +81,13 @@ paths:
             type: "array"
             items:
               $ref: "#/definitions/Message"
+        400:
+          description: "bad request"
+          schema:
+            type: "object"
+            properties:
+              error:
+                type: "string"
 
   /user:
     get:
