@@ -7,6 +7,8 @@ Exciting!
 
 In preparation for the grand migration, we've decided to task you with building a tool which will help us __understand what the current user overlap__ of the social networks looks like.
 
+**Please do not invest more than 5 to 8 hours.** If you can't complete the task within that timeframe, document where you got stuck, so we can use it as a basis for discussion for your next interview.
+
 ## Your mission, should you choose to accept it:
 
 ### Step 1
