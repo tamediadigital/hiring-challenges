@@ -9,7 +9,7 @@ Your goal will be to add the [lambda functions](https://github.com/tamediadigita
 ### Step 1
 - Convert [this lambda application (handler.py)](https://github.com/tamediadigital/conversation-echo-api) to a [flask](https://palletsprojects.com/p/flask/) application.
 The expected behaviour of the API is documented [here](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tamediadigital/hiring-challenges/master/conversation-frontend-challenge/api.yaml)
-- Create a Dockerfile for the flask app. The [front-end](/conversation-app) (on `http://localhost:5050`) expects it to run on port `5000`.
+- Create a Dockerfile for the flask app. The [front-end](https://github.com/tamediadigital/hiring-challenges/tree/master/sre-hiring-challenge/conversation-app) (on `http://localhost:5050`) expects it to run on port `5000`.
 - Add the newly dockerized flask application to [our docker-compose setup](docker-compose.yml)
 - If everything works, after running `docker-compose up`, the front-end app on `http://localhost:5050` will connect to your API on `http://localhost:5000` and should render a list of users and if you click on them, you'll see their conversation.
 
