@@ -1,0 +1,21 @@
+.container {
+ width: 100%;
+}
+.inputContainer {
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ background: #fff;
+ border-top: 1px solid #eeeef1;
+ position: fixed;
+ width: calc(100% - 20px);
+ bottom: 0;
+}
+
+.input {
+ flex: 1 1;
+ border: none;
+ font-size: 14px;
+ height: 40px;
+ background: none;
+}

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container:hover {
+    background: #eeeef1;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.name {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+}
