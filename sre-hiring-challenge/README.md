@@ -21,7 +21,7 @@ The dashboard should contain two graphs for our conversation-api and conversatio
 - Network traffic
 
 It should look something like this:
-![Dashboard screenshot](/grafana/dashboard-screenshot.png?raw=true)
+![Dashboard screenshot](https://github.com/tamediadigital/hiring-challenges/blob/master/sre-hiring-challenge/grafana/dashboard-screenshot.png?raw=true)
 
 ## Evaluation criteria
 - The lambda functions are pretty simple, we expect the resulting flask application to be equally simple. Even if you don't know python, the flask documentation should provide enough guidance
