@@ -1,9 +1,4 @@
 # SRE hiring challenge
-## Intro
-Our daily work often requires more than just configuration of services and infrastructure, if we want to ensure the best possible outcomes for our projects.
-In this case, our fellow developers require our assistance in migrating an existing application from AWS Lambda to plain docker, since we run most of our applications on Kubernetes and we use docker-compose for development.
-
-## Your mission, should you choose to accept it:
 Your goal will be to add the [lambda functions](https://github.com/tamediadigital/conversation-echo-api) to our our docker-compose setup (as you see it here in this repository). It includes a [front-end](/conversation-app) which relies on the lambda functions. You can use this to test your work. It lives at `localhost:5050`.
 
 ### Step 1
@@ -14,11 +9,12 @@ The expected behaviour of the API is documented [here](https://petstore.swagger.
 - If everything works, after running `docker-compose up`, the front-end app on `http://localhost:5050` will connect to your API on `http://localhost:5000` and should render a list of users and if you click on them, you'll see their conversation.
 
 ### Step 2
-Our developers will have to instrument their software with prometheus, so we want to help them hit the ground running with an initial dashboard in Grafana.
+Create a Grafana Dashboard [here](http://localhost:3000)
+
 
 The dashboard should contain two graphs for our conversation-api and conversation-app containers:
-- Total memory consumption
-- Network traffic
+- Total memory consumption `container_memory_usage_bytes`
+- Network traffic `container_network_receive_bytes_total`
 
 It should look something like this:
 ![Dashboard screenshot](https://github.com/tamediadigital/hiring-challenges/blob/master/sre-hiring-challenge/grafana/dashboard-screenshot.png?raw=true)
@@ -30,7 +26,10 @@ It should look something like this:
 - It works reliably. `docker-compose up` and your documentation should be all that is required to review your solution
 
 # Notes
-If you clone this repository with docker and docker-compose installed, running `docker-compose up` should give you:
+__Please do not use more than 2 - 8 hours for this challenge__. If you are going over time, just finish documenting your process so we can discuss where you ran in to difficulties.
+
+
+If you clone this repository and have docker and docker-compose installed, running `docker-compose up` should give you:
 - [prometheus](http://localhost:9090)
 - [grafana](http://localhost:3000)
 - [cadvisor](http://localhost:8080)
