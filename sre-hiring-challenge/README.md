@@ -26,7 +26,7 @@ It should look something like this:
 - It works reliably. `docker-compose up` and your documentation should be all that is required to review your solution
 
 # Notes
-__Please do not use more than 2 - 8 hours for this challenge__. If you are going over time, just finish documenting your process so we can discuss where you ran in to difficulties.
+__Please do not use more than 2 - 8 hours for this challenge__. If you are going over time, just finish documenting your process so we can discuss where you ran into difficulties.
 
 
 If you clone this repository and have docker and docker-compose installed, running `docker-compose up` should give you:
