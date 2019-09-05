@@ -1,5 +1,5 @@
 # SRE hiring challenge
-Your goal will be to add the [lambda functions](https://github.com/tamediadigital/conversation-echo-api) to our our docker-compose setup (as you see it here in this repository). It includes a [front-end](/conversation-app) which relies on the lambda functions. You can use this to test your work. It lives at `localhost:5050`.
+Your goal is to add the [lambda functions](https://github.com/tamediadigital/conversation-echo-api) to our our docker-compose setup (as you see it here in this repository). It includes a [front-end](/conversation-app) which relies on the lambda functions. You can use this to test your work. It lives at `localhost:5050`.
 
 ### Step 1
 - Convert [this lambda application (handler.py)](https://github.com/tamediadigital/conversation-echo-api) to a [flask](https://palletsprojects.com/p/flask/) application.
