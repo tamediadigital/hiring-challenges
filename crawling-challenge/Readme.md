@@ -50,4 +50,5 @@ Bonus:
 
 Hints:
 - check that your last commit compiles
+- send us link where to checkout code from (e.g. github)
 
