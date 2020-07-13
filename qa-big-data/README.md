@@ -7,7 +7,7 @@ The challenge is composed of 3 levels or 3 subtasks. We will evaluate each subta
 
 1. Technical skills
 2. Data understanding
-3. Analytical and skills
+3. Analytical skills
 
 We have provided a data set (you can download it from [here](https://tda-public.s3.eu-central-1.amazonaws.com/hire-challenge/challenge-qa.jsonl.gz) as a gzipped JSONL file. It is up to the candidate to look into the file and analyze data. The data consists of JSON data that are streamed into the file.  The following requirements are all based on the provided data set. 
 
