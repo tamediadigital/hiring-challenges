@@ -1,4 +1,4 @@
-## Tamedia hiring Challenges Repo
+## TX Group hiring Challenges Repo
 
-for support/questions/help/feedback please visit #tamedia on freenode or ping @yawniek on twitter
+for support/questions/help/feedback please reach somene from TX Group
 or open an issue
