@@ -19,7 +19,7 @@ We have provided a data set (you can download it from [here](https://tda-public.
 
 ## sample data
 data are corrupted. you have to find what is corrupted and where.
-You have to fix it.
+you have to fix it.
 
 ### technical skills
 1. tell us which records were corrupted and how you have fixed it
