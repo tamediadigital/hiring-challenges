@@ -17,6 +17,8 @@ We have provided a data set (you can download it from [here](https://tda-public.
 - write a report: what did you do? what were the reasons you did it like that?
 - demo your solution
 
+`Note`: that all tasks can be completed on regular hardware configuration (e.g. 4GB of RAM) if you are smart and know how to deal with large files.
+
 ## sample data
 data are corrupted. you have to find what is corrupted and where.
 you have to fix it.
