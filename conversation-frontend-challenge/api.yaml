@@ -3,7 +3,7 @@ info:
   description: "API Documentation for the Conversation Echo API."
   version: "1.1.0"
   title: "Conversation Echo API"
-host: "conversation-echo-api.tamedia-origami.ch"
+host: "csjar37r18.execute-api.eu-central-1.amazonaws.com/dev"
 tags:
 - name: "conversations"
   description: "Everything about conversations"
