@@ -23,7 +23,7 @@ The simplest use case is that we want to calculate unique users per minute, day,
 
 ## sample data
 
-For a quick start you can use the sample data provided at [here](https://s3.console.aws.amazon.com/s3/object/tda-public?region=eu-central-1&prefix=hire-challenge/stream.jsonl.gz):
+For a quick start you can use the sample data provided at [here](https://tda-public.s3.eu-central-1.amazonaws.com/hire-challenge/stream.jsonl.gz):
 
 it was generated using `./data-generator -c 1000000 -o stream.jsonl -r 1000 -n 100000`
 
