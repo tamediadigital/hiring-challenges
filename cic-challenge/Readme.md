@@ -14,7 +14,7 @@ Our main goal in this part is to test how you approach and implement a data craw
 1. Implement a scraper for this website using Python
 2. To request this API you will need to pass the authorization process. This is the headers that you would need to post to get an access token:
 
-   ```json
+   ```
    {'accept': '*/*', 'content-type': 'application/x-www-form-urlencoded; charset=utf-8', 'authorization': 'Basic aW1tb3dlbHRfbW9iaWxlX2FwcF9pb3NfMjo5UXVHa20xM1k0WEZPZHFzZW05eGh4RVVKejR2UWdEWA==', 'accept-encoding': 'br;q=1.0, gzip;q=0.9, deflate;q=0.8', 'user-agent': 'immowelt/7.8.1 (de.immowelt.immoweltapp; build:271; iOS 14.7.1) Alamofire/5.5.0', 'accept-language': 'en-RS;q=1.0, sr-RS;q=0.9, sr-Latn-RS;q=0.8, de-RS;q=0.7'}
    ```
    
