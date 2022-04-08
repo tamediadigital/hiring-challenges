@@ -8,7 +8,7 @@ We have 2 parts in this challenge, first a Crawling Task, and secondly a Data En
 The main objective is to see your idea of implementation and your code organization. You are free to use any python libraries & tools to achieve your results, but keep in mind that readability and simplicity in terms of code and approach is important.
 
 
-### Crawling task
+## Crawling task
 Our main goal in this part is to test how you approach and implement a data crawler for the Real Estate Marketplace immowelt.com using their mobile API as an access point for data collection. To limit the scope of the task, and to help you get going we have prepared some helpful pieces of information for mobile API reverse engineering:
 
 1. Implement a scraper for this website using Python
@@ -62,7 +62,7 @@ The output should be a json file with the following format(using the ids provide
 
  
 
-## Other points to keep in mind
+### Other points to keep in mind
 
 - provide a [Dockerfile](https://docs.docker.com/engine/reference/builder/) to build your code
 - write a [docker-compose.yml](https://docs.docker.com/compose/) for local testing
@@ -70,7 +70,7 @@ The output should be a json file with the following format(using the ids provide
 You do not necessarily need to implement all features (e.g. docker-compose) but make sure you document your decisions and TODOs. Watch your time and try to get as far as possible in about 5-8 hours of hacking. If you don’t have time to finish everything, please write down your thoughts and how you would finish the remaining part.
 
 
-## Evaluation criterias
+### Evaluation criterias
 
 What we look for:
 
